@@ -1,2 +1,5 @@
 #!/bin/bash
+
+read dir_path
+cd $dir_path
 ehco "$(pwd)"
