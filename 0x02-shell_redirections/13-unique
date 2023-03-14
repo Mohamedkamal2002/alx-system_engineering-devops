@@ -1,4 +1,2 @@
 #!/bin/bash
-read file_name;
-cat <file_name> | sort | uniq -c | grep -e '^\s.*1\s' | awk '{print $NF}'
-
+sort | uniq -u
