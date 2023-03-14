@@ -1,6 +1,2 @@
 #!/bin/bash
-find . -type d >x.txt
-tail -n+2 x.txt >  y.txt
-wc  -l y.txt
-rm x.txt;rm y.txt
-
+find . -type not -name '.' d| wc -l
