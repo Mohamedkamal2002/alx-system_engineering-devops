@@ -1,3 +1,3 @@
 #!/bin/bash
 read file
-echo file|rev
+echo $file | rev
