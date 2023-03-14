@@ -1,6 +1,6 @@
 #!/bin/bash
-find . -type d >x
-tail -n+2 x > y
-wc -l y
-rm x y
+find . -type d >x.txt
+tail -n+2 x.txt >  y.txt
+wc  -l y.txt
+rm x.txt;rm y.txt
 
